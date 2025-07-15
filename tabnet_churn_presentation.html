@@ -504,21 +504,24 @@
             <h2>Model Performance & Impact</h2>
             <div class="metrics-grid">
                 <div class="metric-card">
-                    <div class="metric-value">77.8%</div>
+                    <div class="metric-value">75.0%</div>
                     <div class="metric-label">Overall Accuracy</div>
                 </div>
                 <div class="metric-card">
-                    <div class="metric-value">52.7%</div>
+                    <div class="metric-value">69.8%</div>
                     <div class="metric-label">Churn Recall</div>
                 </div>
                 <div class="metric-card">
-                    <div class="metric-value">55.7%</div>
+                    <div class="metric-value">59.7%</div>
                     <div class="metric-label">Churn F1-Score</div>
                 </div>
                 <div class="metric-card">
-                    <div class="metric-value">0.820</div>
+                    <div class="metric-value">0.826</div>
                     <div class="metric-label">ROC AUC</div>
                 </div>
+            </div>
+            <div style="margin-top: 30px; text-align: center; color: #64ffda; font-size: 1.1em;">
+                <strong>Optimized Threshold:</strong> 0.42 | <strong>Precision:</strong> 52.2%
             </div>
         </div>
 
@@ -532,33 +535,33 @@
                     </p>
                     <div class="feature-importance">
                         <div class="feature-bar">
-                            <div class="feature-name">DeviceProtection</div>
+                            <div class="feature-name">MonthlyCharges</div>
                             <div class="feature-bar-bg">
                                 <div class="feature-bar-fill" style="width: 100%;"></div>
                             </div>
                         </div>
                         <div class="feature-bar">
-                            <div class="feature-name">Contract</div>
+                            <div class="feature-name">Tenure</div>
                             <div class="feature-bar-bg">
-                                <div class="feature-bar-fill" style="width: 98%;"></div>
+                                <div class="feature-bar-fill" style="width: 88%;"></div>
                             </div>
                         </div>
                         <div class="feature-bar">
-                            <div class="feature-name">Tenure</div>
+                            <div class="feature-name">StreamingMovies</div>
                             <div class="feature-bar-bg">
-                                <div class="feature-bar-fill" style="width: 91%;"></div>
+                                <div class="feature-bar-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="feature-bar">
+                            <div class="feature-name">Contract</div>
+                            <div class="feature-bar-bg">
+                                <div class="feature-bar-fill" style="width: 72%;"></div>
                             </div>
                         </div>
                         <div class="feature-bar">
                             <div class="feature-name">OnlineSecurity</div>
                             <div class="feature-bar-bg">
-                                <div class="feature-bar-fill" style="width: 73%;"></div>
-                            </div>
-                        </div>
-                        <div class="feature-bar">
-                            <div class="feature-name">TechSupport</div>
-                            <div class="feature-bar-bg">
-                                <div class="feature-bar-fill" style="width: 72%;"></div>
+                                <div class="feature-bar-fill" style="width: 68%;"></div>
                             </div>
                         </div>
                     </div>
@@ -580,7 +583,7 @@
             <div class="conclusion-grid">
                 <div class="tech-box">
                     <h4>Key Achievement:</h4>
-                    <p>Developed robust TabNet model with 52.7% recall for churn identification, enabling proactive customer retention strategies with strong discriminative power (ROC AUC: 0.820).</p>
+                    <p>Developed robust TabNet model with optimized threshold (0.42) achieving 69.8% recall for churn identification, enabling proactive customer retention strategies with excellent discriminative power (ROC AUC: 0.826).</p>
                 </div>
                 <div class="roadmap">
                     <h4>Future Enhancements:</h4>
